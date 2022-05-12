@@ -124,10 +124,10 @@ jobs:
 
 For more information, see "[Using a matrix for your jobs](/actions/using-jobs/using-a-matrix-for-your-jobs)."
 
-{% if actions-caching %}
+{% ifversion fpt or ghec %}
 ### Almacenar dependencias en caché
 
-If your jobs regularly reuse dependencies, you can consider caching these files to help improve performance. Una vez que se crea el caché, estará disponible para todos los flujos de trabajo en el mismo repositorio.
+Los ejecutores hospedados en {% data variables.product.prodname_dotcom %} se inician como ambientes nuevos para cada job, así que, si tus jobs utilizan dependencias a menudo, puedes considerar almacenar estos archivos en caché para ayudarles a mejorar el rendimiento. Una vez que se crea el caché, estará disponible para todos los flujos de trabajo en el mismo repositorio.
 
 Este ejemplo ilustra cómo almacenar el directorio `~/.npm` en el caché:
 

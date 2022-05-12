@@ -11,6 +11,3 @@ topics:
 miniTocMaxHeadingLevel: 3
 ---
 
-## 关于关注者 API
-
-{% data reusables.user-settings.user-api %}

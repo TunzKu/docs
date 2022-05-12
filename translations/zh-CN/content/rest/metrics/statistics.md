@@ -1,8 +1,8 @@
 ---
-title: 存储库统计信息
+title: Repository statistics
 shortTitle: 统计
 allowTitleToDifferFromFilename: true
-intro: '存储库统计信息 API 允许您获取 {% data variables.product.product_name %} 用于可视化不同类型的存储库活动的数据。'
+intro: 'The Repository statistics API allows you to fetch the data that {% data variables.product.product_name %} uses for visualizing different types of repository activity.'
 versions:
   fpt: '*'
   ghes: '*'
@@ -13,9 +13,9 @@ topics:
 miniTocMaxHeadingLevel: 3
 ---
 
-## 关于存储库统计信息 API
+## About the Repository statistics API
 
-存储库统计信息 API 允许您获取 {% data variables.product.product_name %} 用于可视化不同类型的存储库活动的数据。
+The Repository statistics API allows you to fetch the data that {% data variables.product.product_name %} uses for visualizing different types of repository activity.
 
 ### 谈一谈缓存
 

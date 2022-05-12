@@ -97,7 +97,7 @@ Si tienes múltiples llaves GPG, le debes decir a Git cuál utilizar.
 {% data reusables.gpg.list-keys-with-note %}
 {% data reusables.gpg.copy-gpg-key-id %}
 {% data reusables.gpg.paste-gpg-key-id %}
-1. Para agregar tu clave GPG a tu archivo de inicio `.bashrc`, ejecuta el siguiente comando:
+1. To add your GPG key to your `.bashrc` startup file, run the following command:
   ```bash
   $ [ -f ~/.bashrc ] && echo 'export GPG_TTY=$(tty)' >> ~/.bashrc
   ```

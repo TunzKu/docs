@@ -1,7 +1,5 @@
 ---
-title: 团队成员
-allowTitleToDifferFromFilename: true
-shortTitle: 成员
+title: 成员
 intro: ''
 versions:
   fpt: '*'
@@ -13,9 +11,7 @@ topics:
 miniTocMaxHeadingLevel: 3
 ---
 
-## 关于团队成员 API
-
-{% data reusables.organizations.team-api %}
+此 API 仅适用于团队组织中经过身份验证的成员。 OAuth 访问令牌需要 `read:org` [scope](/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/)。
 
 {% ifversion fpt or ghes or ghec %}
 {% note %}

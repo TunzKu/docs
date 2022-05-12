@@ -1,16 +1,15 @@
 ---
-title: GitHub Actions 缓存
+title: GitHub Actions Cache
 allowTitleToDifferFromFilename: true
 shortTitle: 缓存
-intro: '{% data variables.product.prodname_actions %} 缓存 API 允许您查询和管理存储库的 {% data variables.product.prodname_actions %} 缓存。'
+intro: 'The {% data variables.product.prodname_actions %} Cache API allows you to query and manage the {% data variables.product.prodname_actions %} cache for repositories.'
 topics:
   - API
 versions:
   fpt: '*'
   ghec: '*'
-  ghes: '>3.4'
 ---
 
-## 关于缓存 API
+## About the Cache API
 
-{% data variables.product.prodname_actions %} 缓存 API 允许您查询和管理存储库的 {% data variables.product.prodname_actions %} 缓存。 更多信息请参阅“[缓存依赖项以加快工作流程](/actions/advanced-guides/caching-dependencies-to-speed-up-workflows#usage-limits-and-eviction-policy)”。
+The {% data variables.product.prodname_actions %} Cache API allows you to query and manage the {% data variables.product.prodname_actions %} cache for repositories. 更多信息请参阅“[缓存依赖项以加快工作流程](/actions/advanced-guides/caching-dependencies-to-speed-up-workflows#usage-limits-and-eviction-policy)”。

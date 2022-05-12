@@ -8,7 +8,6 @@ topics:
 versions:
   fpt: '*'
   ghec: '*'
-  ghes: '>3.4'
 ---
 
 ## About the Cache API

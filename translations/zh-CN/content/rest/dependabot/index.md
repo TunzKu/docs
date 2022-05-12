@@ -1,6 +1,6 @@
 ---
 title: Dependabot
-intro: 借助 Dependabot Secrets API，您可以管理和控制组织或存储库的 Dependabot 密钥。
+intro: 'With the Dependabot Secrets API, you can manage and control Dependabot secrets for an organization or repository.'
 allowTitleToDifferFromFilename: true
 versions:
   fpt: '*'

@@ -1,8 +1,8 @@
 ---
-title: Git 提交
+title: Git commits
 shortTitle: 提交
 allowTitleToDifferFromFilename: true
-intro: 'Git 提交 API 允许您对 {% data variables.product.product_name %} 上的 Git 数据库读取和写入提交对象。'
+intro: 'The Git commits API lets you read and write commit objects to your Git database on {% data variables.product.product_name %}.'
 versions:
   fpt: '*'
   ghes: '*'
@@ -13,6 +13,6 @@ topics:
 miniTocMaxHeadingLevel: 3
 ---
 
-## 关于 Git 提交 API
+## About the Git commits API
 
-Git 提交是 Git 仓库中层次结构（[Git 树](/rest/reference/git#trees)）和文件内容 ([Git blob](/rest/reference/git#blobs)) 的快照。 这些端点允许您在 {% data variables.product.product_name %} 上的 Git 数据库中读取和写入[提交对象](https://git-scm.com/book/en/v1/Git-Internals-Git-Objects#Commit-Objects)。
+A Git commit is a snapshot of the hierarchy ([Git tree](/rest/reference/git#trees)) and the contents of the files ([Git blob](/rest/reference/git#blobs)) in a Git repository. These endpoints allow you to read and write [commit objects](https://git-scm.com/book/en/v1/Git-Internals-Git-Objects#Commit-Objects) to your Git database on {% data variables.product.product_name %}.

@@ -1,5 +1,5 @@
 ---
-title: 预接收挂钩
+title: Pre-receive Hooks
 intro: 预接收挂钩 API 允许您创建、列出、更新和删除预接收挂钩。
 versions:
   ghes: '*'

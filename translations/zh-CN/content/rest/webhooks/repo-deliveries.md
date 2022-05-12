@@ -1,5 +1,5 @@
 ---
-title: 存储库 web 挂钩交付
+title: Repository Webhook Deliveries
 intro: ''
 versions:
   fpt: '*'

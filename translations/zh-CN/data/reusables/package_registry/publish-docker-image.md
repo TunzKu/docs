@@ -8,12 +8,12 @@ on:
     branches: ['release']
 
 env:
-  REGISTRY: {% data reusables.package_registry.container-registry-hostname %}
+  REGISTRY: ghcr.io
   IMAGE_NAME: {% raw %}${{ github.repository }}{% endraw %}
 
 jobs:
   build-and-push-image:
-    runs-on: {% ifversion ghes %}[self-hosted]{% else %}ubuntu-latest{% endif %}
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write

@@ -4,8 +4,6 @@ intro: 管理统计 API 提供有关安装设施的各种指标。
 versions:
   ghes: '*'
   ghae: '*'
-  ghec: '*'
-  fpt: '*'
 topics:
   - API
 miniTocMaxHeadingLevel: 3

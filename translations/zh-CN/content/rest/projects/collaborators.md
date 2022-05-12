@@ -1,8 +1,6 @@
 ---
-title: 项目板协作者
-shortTitle: 协作者
-allowTitleToDifferFromFilename: true
-intro: 项目板协作者 API 允许您管理项目板上的协作者。
+title: 协作者
+intro: 此 API 允许您与组织的项目进行交互。
 versions:
   fpt: '*'
   ghes: '*'
@@ -13,4 +11,3 @@ topics:
 miniTocMaxHeadingLevel: 3
 ---
 
-{% data reusables.projects.projects-api %}

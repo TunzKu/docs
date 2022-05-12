@@ -1,5 +1,5 @@
 ---
-title: 预接收环境
+title: Pre-receive Environments
 intro: 预接收环境 API 允许您创建、列出、更新和删除预接收挂钩的环境。
 versions:
   ghes: '*'

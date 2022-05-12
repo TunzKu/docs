@@ -1,7 +1,7 @@
 ---
-title: 对作业使用矩阵
+title: Using a matrix for your jobs
 shortTitle: 使用矩阵
-intro: 创建矩阵以定义每个作业的变体。
+intro: Create a matrix to define variations for each job.
 versions:
   fpt: '*'
   ghes: '*'
@@ -15,11 +15,11 @@ redirect_from:
 {% data reusables.actions.enterprise-beta %}
 {% data reusables.actions.enterprise-github-hosted-runners %}
 
-## 关于矩阵策略
+## About matrix strategies
 
 {% data reusables.actions.jobs.about-matrix-strategy %}
 
-## 使用矩阵策略
+## Using a matrix strategy
 
 {% data reusables.actions.jobs.using-matrix-strategy %}
 
@@ -35,7 +35,7 @@ redirect_from:
 
 {% data reusables.actions.jobs.matrix-from-context %}
 
-## 扩展或添加矩阵配置
+## Expanding or adding matrix configurations
 
 {% data reusables.actions.jobs.matrix-include %}
 
@@ -47,14 +47,14 @@ redirect_from:
 
 {% data reusables.actions.jobs.matrix-add-with-include %}
 
-## 排除矩阵配置
+## Excluding matrix configurations
 
 {% data reusables.actions.jobs.matrix-exclude %}
 
-## 失败处理
+## Handling failures
 
 {% data reusables.actions.jobs.section-using-a-build-matrix-for-your-jobs-failfast %}
 
-## 定义并发作业的最大数量
+## Defining the maximum number of concurrent jobs
 
 {% data reusables.actions.jobs.section-using-a-build-matrix-for-your-jobs-max-parallel %}

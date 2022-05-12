@@ -1,5 +1,5 @@
 ---
-title: 存储库 web 挂钩配置
+title: Repository Webhook Configuration
 intro: ''
 versions:
   fpt: '*'

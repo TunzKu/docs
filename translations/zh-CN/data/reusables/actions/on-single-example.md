@@ -1,4 +1,4 @@
-例如，推送到工作流程存储库中的任何分支时，将运行具有以下 `on` 值的工作流程：
+For example, a workflow with the following `on` value will run when a push is made to any branch in the workflow's repository:
 
 ```yaml
 on: push

@@ -1,8 +1,8 @@
 ---
-title: Gist 评论
+title: Gist comments
 allowTitleToDifferFromFilename: true
 shortTitle: 评论
-intro: 通过 Gist 评论 API，您可以查看和修改对 Gist 的评论。
+intro: The Gist comments API lets you view and modify comments on a gist.
 versions:
   fpt: '*'
   ghes: '*'
@@ -13,9 +13,9 @@ topics:
 miniTocMaxHeadingLevel: 3
 ---
 
-## 关于 Gist 评论 API
+## About the Gist comments API
 
-通过 Gist 评论 API，您可以查看和修改对 Gist 的评论。 有关 Gist 的详细信息，请参阅“[编辑和共享内容与 Gist](/get-started/writing-on-github/editing-and-sharing-content-with-gists)”。
+The Gist comments API lets you view and modify comments on a gist. For more information about gists, see "[Editing and sharing content with gists](/get-started/writing-on-github/editing-and-sharing-content-with-gists)."
 
 ### Gist 评论的自定义媒体类型
 

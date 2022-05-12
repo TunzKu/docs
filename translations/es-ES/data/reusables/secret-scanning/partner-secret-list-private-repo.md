@@ -1,4 +1,4 @@
-| Proveedor   | Secreto compatible      | Secret type       |
+| Proveedor   | Secreto compatible      | Slug de la API    |
 | ----------- | ----------------------- | ----------------- |
 | Adafruit IO | Clave de IO de Adafruit | adafruit_io_key |
 {%- ifversion fpt or ghec or ghes > 3.1 or ghae %}

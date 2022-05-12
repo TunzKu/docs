@@ -309,8 +309,6 @@ Para obtener más información, consulta las secciones "[Variables de ambiente](
 
 La IC/EC de GitLab y las {% data variables.product.prodname_actions %} proporcionan un método en el archivo de configuración para guardar los archivos de flujo de trabajo manualmente en el caché.
 
-{% if actions-caching %}
-
 Puedes encontrar un ejemplo de la sintaxis para cada sistema:
 
 <table class="d-block">
@@ -361,11 +359,7 @@ jobs:
 </tr>
 </table>
 
-{% else %}
-
-{% data reusables.actions.caching-availability %}
-
-{% endif %}
+El almacenamiento en caché de las {% data variables.product.prodname_actions %} solo se aplica a los repositorios que se hospedan en {% data variables.product.prodname_dotcom_the_website %}. Para obtener más información, consulta la sección "<a href="/actions/guides/caching-dependencies-to-speed-up-workflows" class="dotcom-only">Almacenar las dependencias en caché para agilizar los flujos de trabajo</a>".
 
 ## Artefactos
 
